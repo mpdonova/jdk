@@ -103,6 +103,7 @@ public class TsacertOptionTest extends Test {
                 "-alias", CA_KEY_ALIAS,
                 "-keystore", KEYSTORE,
                 "-storepass", PASSWORD,
+                "-startdate", "-1M",
                 "-keypass", PASSWORD,
                 "-validity", Integer.toString(VALIDITY),
                 "-infile", "certreq",
